@@ -1,0 +1,202 @@
+<!--
+
+# (c) Copyright 2024, Fraunhofer IFF
+
+# This file is part of iff-cas-modHumanBody.
+
+# iff-cas-modHumanBody is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# iff-cas-modHumanBody is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with iff-cas-modHumanBody.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<postureset>
+	<posture id="1" posturename="ifa_1">
+		<jointangle nr="1"	name="K1_ankle_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K2_ankle_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K3_ankle_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K4_knee_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K5_hip_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K6_hip_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K7_hip_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="1"	name="K8_ankle_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K9_ankle_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K10_ankle_right_x"	unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K11_knee_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K12_hip_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K13_hip_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K14_hip_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="8"	name="K15_vert_x"			unit="degree">0</jointangle>
+		<jointangle nr="9"	name="K16_vert_y"			unit="degree">0</jointangle>
+		<jointangle nr="10" name="K17_vert_z"			unit="degree">0</jointangle>
+		<jointangle nr="11" name="K18_head_x"			unit="degree">0</jointangle>
+		<jointangle nr="12" name="K19_head_y"			unit="degree">0</jointangle>
+		<jointangle nr="13" name="K20_head_z"			unit="degree">0</jointangle>
+		<jointangle nr="14" name="K21_shoulder_right_z" unit="degree">0</jointangle>
+		<jointangle nr="15" name="K22_shoulder_right_y" unit="degree">0</jointangle>
+		<jointangle nr="16" name="K23_shoulder_right_x" unit="degree">0</jointangle>
+		<jointangle nr="17" name="K24_elbow_right_z"	unit="degree">90</jointangle>
+		<jointangle nr="18" name="K25_hand_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="19" name="K26_hand_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="20" name="K27_hand_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="21" name="K28_shoulder_left_z"	unit="degree">0</jointangle>
+		<jointangle nr="22" name="K29_shoulder_left_y"	unit="degree">0</jointangle>
+		<jointangle nr="23" name="K30_shoulder_left_x"	unit="degree">0</jointangle>
+		<jointangle nr="24" name="K31_elbow_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="25" name="K32_hand_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="26" name="K33_hand_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="27" name="K34_hand_left_x"		unit="degree">0</jointangle>
+	</posture>
+	<posture id="2" posturename="ifa_1">
+		<jointangle nr="1"	name="K1_ankle_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K2_ankle_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K3_ankle_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K4_knee_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K5_hip_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K6_hip_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K7_hip_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="1"	name="K8_ankle_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K9_ankle_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K10_ankle_right_x"	unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K11_knee_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K12_hip_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K13_hip_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K14_hip_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="8"	name="K15_vert_x"			unit="degree">0</jointangle>
+		<jointangle nr="9"	name="K16_vert_y"			unit="degree">0</jointangle>
+		<jointangle nr="10" name="K17_vert_z"			unit="degree">0</jointangle>
+		<jointangle nr="11" name="K18_head_x"			unit="degree">0</jointangle>
+		<jointangle nr="12" name="K19_head_y"			unit="degree">0</jointangle>
+		<jointangle nr="13" name="K20_head_z"			unit="degree">0</jointangle>
+		<jointangle nr="14" name="K21_shoulder_right_z" unit="degree">0</jointangle>
+		<jointangle nr="15" name="K22_shoulder_right_y" unit="degree">0</jointangle>
+		<jointangle nr="16" name="K23_shoulder_right_x" unit="degree">0</jointangle>
+		<jointangle nr="17" name="K24_elbow_right_z"	unit="degree">90</jointangle>
+		<jointangle nr="18" name="K25_hand_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="19" name="K26_hand_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="20" name="K27_hand_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="21" name="K28_shoulder_left_z"	unit="degree">0</jointangle>
+		<jointangle nr="22" name="K29_shoulder_left_y"	unit="degree">0</jointangle>
+		<jointangle nr="23" name="K30_shoulder_left_x"	unit="degree">0</jointangle>
+		<jointangle nr="24" name="K31_elbow_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="25" name="K32_hand_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="26" name="K33_hand_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="27" name="K34_hand_left_x"		unit="degree">0</jointangle>
+	</posture>
+	<posture id="3" posturename="ifa_2">
+		<jointangle nr="1"	name="K1_ankle_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K2_ankle_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K3_ankle_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K4_knee_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K5_hip_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K6_hip_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K7_hip_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="1"	name="K8_ankle_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K9_ankle_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K10_ankle_right_x"	unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K11_knee_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K12_hip_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K13_hip_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K14_hip_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="8"	name="K15_vert_x"			unit="degree">0</jointangle>
+		<jointangle nr="9"	name="K16_vert_y"			unit="degree">0</jointangle>
+		<jointangle nr="10" name="K17_vert_z"			unit="degree">-30</jointangle>
+		<jointangle nr="11" name="K18_head_x"			unit="degree">0</jointangle>
+		<jointangle nr="12" name="K19_head_y"			unit="degree">0</jointangle>
+		<jointangle nr="13" name="K20_head_z"			unit="degree">0</jointangle>
+		<jointangle nr="14" name="K21_shoulder_right_z" unit="degree">60</jointangle>
+		<jointangle nr="15" name="K22_shoulder_right_y" unit="degree">0</jointangle>
+		<jointangle nr="16" name="K23_shoulder_right_x" unit="degree">0</jointangle>
+		<jointangle nr="17" name="K24_elbow_right_z"	unit="degree">0</jointangle>
+		<jointangle nr="18" name="K25_hand_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="19" name="K26_hand_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="20" name="K27_hand_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="21" name="K28_shoulder_left_z"	unit="degree">0</jointangle>
+		<jointangle nr="22" name="K29_shoulder_left_y"	unit="degree">0</jointangle>
+		<jointangle nr="23" name="K30_shoulder_left_x"	unit="degree">0</jointangle>
+		<jointangle nr="24" name="K31_elbow_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="25" name="K32_hand_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="26" name="K33_hand_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="27" name="K34_hand_left_x"		unit="degree">0</jointangle>
+	</posture>	
+	<posture id="4" posturename="ifa_4">
+		<jointangle nr="1"	name="K1_ankle_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K2_ankle_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K3_ankle_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K4_knee_left_z"		unit="degree">90</jointangle>
+		<jointangle nr="5"	name="K5_hip_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K6_hip_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K7_hip_left_z"		unit="degree">-90</jointangle>
+		<jointangle nr="1"	name="K8_ankle_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K9_ankle_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K10_ankle_right_x"	unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K11_knee_right_z"		unit="degree">90</jointangle>
+		<jointangle nr="5"	name="K12_hip_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K13_hip_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K14_hip_right_z"		unit="degree">-90</jointangle>
+		<jointangle nr="8"	name="K15_vert_x"			unit="degree">0</jointangle>
+		<jointangle nr="9"	name="K16_vert_y"			unit="degree">0</jointangle>
+		<jointangle nr="10" name="K17_vert_z"			unit="degree">-30</jointangle>
+		<jointangle nr="11" name="K18_head_x"			unit="degree">0</jointangle>
+		<jointangle nr="12" name="K19_head_y"			unit="degree">0</jointangle>
+		<jointangle nr="13" name="K20_head_z"			unit="degree">0</jointangle>
+		<jointangle nr="14" name="K21_shoulder_right_z" unit="degree">80</jointangle>
+		<jointangle nr="15" name="K22_shoulder_right_y" unit="degree">0</jointangle>
+		<jointangle nr="16" name="K23_shoulder_right_x" unit="degree">0</jointangle>
+		<jointangle nr="17" name="K24_elbow_right_z"	unit="degree">0</jointangle>
+		<jointangle nr="18" name="K25_hand_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="19" name="K26_hand_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="20" name="K27_hand_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="21" name="K28_shoulder_left_z"	unit="degree">0</jointangle>
+		<jointangle nr="22" name="K29_shoulder_left_y"	unit="degree">0</jointangle>
+		<jointangle nr="23" name="K30_shoulder_left_x"	unit="degree">0</jointangle>
+		<jointangle nr="24" name="K31_elbow_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="25" name="K32_hand_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="26" name="K33_hand_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="27" name="K34_hand_left_x"		unit="degree">0</jointangle>
+	</posture>
+	<posture id="0" posturename="test">
+		<jointangle nr="1"	name="K1_ankle_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K2_ankle_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K3_ankle_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K4_knee_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K5_hip_left_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K6_hip_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K7_hip_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="1"	name="K8_ankle_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="2"	name="K9_ankle_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="3"	name="K10_ankle_right_x"	unit="degree">0</jointangle>
+		<jointangle nr="4"	name="K11_knee_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="5"	name="K12_hip_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="6"	name="K13_hip_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="7"	name="K14_hip_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="8"	name="K15_vert_x"			unit="degree">0</jointangle>
+		<jointangle nr="9"	name="K16_vert_y"			unit="degree">0</jointangle>
+		<jointangle nr="10" name="K17_vert_z"			unit="degree">0</jointangle>
+		<jointangle nr="11" name="K18_head_x"			unit="degree">0</jointangle>
+		<jointangle nr="12" name="K19_head_y"			unit="degree">0</jointangle>
+		<jointangle nr="13" name="K20_head_z"			unit="degree">0</jointangle>
+		<jointangle nr="14" name="K21_shoulder_right_z" unit="degree">-15</jointangle>
+		<jointangle nr="15" name="K22_shoulder_right_y" unit="degree">0</jointangle>
+		<jointangle nr="16" name="K23_shoulder_right_x" unit="degree">1.1</jointangle>
+		<jointangle nr="17" name="K24_elbow_right_z"	unit="degree">30</jointangle>
+		<jointangle nr="18" name="K25_hand_right_z"		unit="degree">0</jointangle>
+		<jointangle nr="19" name="K26_hand_right_y"		unit="degree">0</jointangle>
+		<jointangle nr="20" name="K27_hand_right_x"		unit="degree">0</jointangle>
+		<jointangle nr="21" name="K28_shoulder_left_z"	unit="degree">0</jointangle>
+		<jointangle nr="22" name="K29_shoulder_left_y"	unit="degree">0</jointangle>
+		<jointangle nr="23" name="K30_shoulder_left_x"	unit="degree">0</jointangle>
+		<jointangle nr="24" name="K31_elbow_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="25" name="K32_hand_left_z"		unit="degree">0</jointangle>
+		<jointangle nr="26" name="K33_hand_left_y"		unit="degree">0</jointangle>
+		<jointangle nr="27" name="K34_hand_left_x"		unit="degree">0</jointangle>
+	</posture>
+</postureset>

@@ -1,0 +1,101 @@
+<!--
+
+(c) Copyright 2021, Fraunhofer IFF
+
+This file is part of iff-cas-modHumanBody.
+
+iff-cas-modHumanBody is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+iff-cas-modHumanBody is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with iff-cas-modHumanBody.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<mapping>
+    <joints>
+        <!--
+        <joint id="0">
+            <name>new_name</name>               // name of the joint as used in the target model
+            <dir>1</dir>                        // rotation direction {-1, 1}
+            <off unit="{degree, radiant}">0</off>   // offset angel in given unit (will be added to the given angle, AFTER setting rotation direction)
+        </joint>
+        -->
+        <joint id="1"/>
+        <joint id="2"/>
+        <joint id="3"/>
+        <joint id="4"/>
+        <joint id="5"/>
+        <joint id="6"/>
+        <joint id="7"/>
+        <joint id="8"/>
+        <joint id="9"/>
+        <joint id="10"/>
+        <joint id="11"/>
+        <joint id="12"/>
+        <joint id="13"/>
+        <joint id="14"/>
+        <joint id="15"/>
+        <joint id="16"/>
+        <joint id="17"/>
+        <joint id="18"/>
+        <joint id="19"/>
+        <joint id="20"/>
+        <joint id="21"/>
+        <joint id="22"/>
+        <joint id="23"/>
+        <joint id="24"/>
+        <joint id="25"/>
+        <joint id="26"/>
+        <joint id="27"/>
+        <joint id="28"/>
+        <joint id="29"/>
+        <joint id="30"/>
+        <joint id="31"/>
+        <joint id="32"/>
+        <joint id="33"/>
+        <joint id="34"/>
+    </joints>
+    <bodylocations>
+        <!--
+        <bodylocation id="0" name="name of body location">
+            <name>new_name</name> % name of the frame as used in the target model
+        </bodylocation>
+        -->
+        <bodylocation id="1" name="middle of forehead"/>
+        <bodylocation id="2" name="temple"/>
+        <bodylocation id="3" name="masticatory muscle"/>
+        <bodylocation id="4" name="neck muscle"/>
+        <bodylocation id="5" name="seventh neck muscle"/>
+        <bodylocation id="6" name="shoulder joint"/>
+        <bodylocation id="7" name="fifth lumbar vertebra"/>
+        <bodylocation id="8" name="sternum"/>
+        <bodylocation id="9" name="pectoral muscle"/>
+        <bodylocation id="10" name="abdominal muscle"/>
+        <bodylocation id="11" name="pelvic bone"/>
+        <bodylocation id="12" name="deltoid muscle"/>
+        <bodylocation id="13" name="humerus"/>
+        <bodylocation id="14" name="radial bone"/>
+        <bodylocation id="15" name="forearm muscle"/>
+        <bodylocation id="16" name="arm nerve"/>
+        <bodylocation id="17" name="forefinger pad D"/>
+        <bodylocation id="18" name="forefinger pad ND"/>
+        <bodylocation id="19" name="forefinger end joint D"/>
+        <bodylocation id="20" name="forefinger end joint ND"/>
+        <bodylocation id="21" name="thenar eminence ND"/>
+        <bodylocation id="22" name="palm D"/>
+        <bodylocation id="23" name="palm ND"/>
+        <bodylocation id="24" name="back of the hand D"/>
+        <bodylocation id="25" name="back of the hand ND"/>
+        <bodylocation id="26" name="thigh muscle"/>
+        <bodylocation id="27" name="kneecap"/>
+        <bodylocation id="28" name="middle of shin"/>
+        <bodylocation id="29" name="calf muscle"/>
+    </bodylocations>
+</mapping>

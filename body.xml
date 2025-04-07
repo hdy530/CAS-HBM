@@ -1,0 +1,399 @@
+<!--
+
+# (c) Copyright 2024, Fraunhofer IFF
+
+# This file is part of iff-cas-modHumanBody.
+
+# iff-cas-modHumanBody is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# iff-cas-modHumanBody is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+
+# You should have received a copy of the GNU Affero General Public License
+# along with iff-cas-modHumanBody.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<body>
+	<bodyregion id="1" name="Skull and forehead">
+		<bodylocation id="1" name="middle of forehead" frameid="20" xyz="0.6 0.735 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>130</pressure>
+					<force>130</force>
+				</quasistatic>
+				<transient>
+					<pressure>NaN</pressure>
+					<force>NaN</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="2" name="temple" frameid="20" xyz="0.4 0.55 0.3" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>110</pressure>
+					<force>130</force>
+				</quasistatic>
+				<transient>
+					<pressure>NaN</pressure>
+					<force>NaN</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="2" name="Face">
+		<bodylocation id="3" name="masticatory muscle" frameid="20" xyz="0.45 0.35 0.25" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>110</pressure>
+					<force>65</force>
+				</quasistatic>
+				<transient>
+					<pressure>NaN</pressure>
+					<force>NaN</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="3" name="Neck">
+		<bodylocation id="4" name="neck muscle" frameid="20" xyz="0.2 0.1 0.14" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>140</pressure>
+					<force>150</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="5" name="seventh neck muscle" frameid="20" xyz="0 0 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>210</pressure>
+					<force>150</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="4" name="Shoulder">
+		<bodylocation id="6" name="shoulder joint" frameid="17" xyz="0.15 0.85 -0.3" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>160</pressure>
+					<force>210</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="5" frameid="16" name="Back">
+		<bodylocation id="7" name="fifth lumbar vertebra" frameid="17" xyz="-0.1 0 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>210</pressure>
+					<force>210</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="6" name="Chest">
+		<bodylocation id="8" name="sternum" frameid="17" xyz="0.3 0.78 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>120</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="9" name="pectoral muscle" frameid="17" xyz="0.3 0.78 -0.2" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>170</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="7" name="Abdomen">
+		<bodylocation id="10" name="abdominal muscle" frameid="17" xyz="0.245 0 -0.15" xyzbase ="linklength"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>140</pressure>
+					<force>110</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="8" name="Pelvis">
+		<bodylocation id="11" name="pelvic bone" frameid="7" xyz="0.5 0.6 -0.5" xyzbase="linklength"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>210</pressure>
+					<force>180</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="9" name="Upper arms and elbow joints">
+		<bodylocation id="12" name="deltoid muscle" frameid="30" xyz="0 0 -0.15" xyzbase ="linklength"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>190</pressure>
+					<force>150</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="13" name="humerus" frameid="30" xyz="0 -0.1 -0.04" xyzbase ="abs_linkend"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>220</pressure>
+					<force>150</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="10" name="lower arms and wrist joints">
+		<bodylocation id="14" name="radial bone" frameid="31" xyz="0.03 0.05 0" xyzbase ="abs_linkend"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>190</pressure>
+					<force>160</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="15" name="forearm muscle" frameid="31" xyz="0 -0.1 -0.04" xyzbase ="absolute"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>180</pressure>
+					<force>160</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="16" name="arm nerve" frameid="31" xyz="0.03 0 0" xyzbase ="absolute">
+			<limits>
+				<quasistatic>
+					<pressure>180</pressure>
+					<force>160</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="11" name="Hands and fingers D">
+		<bodylocation id="17" name="forefinger pad D" frameid="27" xyz="0 -0.95 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>300</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="19" name="forefinger end joint D" frameid="27" xyz="0 -0.95 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>280</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="22" name="palm D" xyz="0 -0.33 0" frameid="27" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>260</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="24" name="back of the hand D" frameid="27" xyz="0 -0.33 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>200</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="12" name="Hands and fingers ND">
+		<bodylocation id="18" name="forefinger pad ND" frameid="34" xyz="0 -0.95 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>270</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="20" name="forefinger end joint ND" frameid="34" xyz="0 -0.95 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>220</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="21" name="thenar eminence ND" frameid="34" xyz="0.2 -0.2 0" xyzbase ="linklength"><!-- testen -->
+			<limits>
+				<quasistatic>
+					<pressure>200</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="23" name="palm ND" frameid="34" xyz="0 -0.33 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>260</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="25" name="back of the hand ND" frameid="34" xyz="0 -0.33 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>190</pressure>
+					<force>140</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="13" name="thighs and knees">
+		<bodylocation id="26" name="thigh muscle" frameid="4" xyz="0.2 0.33 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>250</pressure>
+					<force>220</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="27" name="kneecap" frameid="4" xyz="0 0 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>220</pressure>
+					<force>220</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+	<bodyregion id="14" name="lower legs">
+		<bodylocation id="28" name="middle of shin" frameid="3" xyz="0.1 0.5 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>220</pressure>
+					<force>130</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+		<bodylocation id="29" name="calf muscle" frameid="3" xyz="-0.2 0.5 0" xyzbase ="linklength">
+			<limits>
+				<quasistatic>
+					<pressure>210</pressure>
+					<force>130</force>
+				</quasistatic>
+				<transient>
+					<pressure>2</pressure>
+					<force>2</force>
+				</transient>
+			</limits>
+		</bodylocation>
+	</bodyregion>
+</body>
+
