@@ -112,7 +112,7 @@
             </joint>
         </kinematic>
         <kinematic nr="2" connectedto="0">
-            <joint nr="1" name="K8_ankle_right_z" type="revolute" range="-35 38" offset="0">
+            <joint nr="1" name="K8_ankle_right_0z" type="revolute" range="-35 38" offset="0">
                 <parent joint="0"/>
                 <!-- origin in parent frame -->
                 <origin xyz="0 0 5.5" xyzbase="bodyheight" rpy="0 0 0"/><!-- ok -->

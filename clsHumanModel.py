@@ -146,7 +146,7 @@ class clsHumanModel():
 
                 # fill the Xtree
                 r = self.__getAbsoluteNumVal( xmlJoint, 'origin', 'xyz' )
-                r = self.__getAbsoluteNumVal( xmlJoint, 'origin', 'xyz' )
+                # r = self.__getAbsoluteNumVal( xmlJoint, 'origin', 'xyz' )
                 X = self.objMBM.plux( R, r )
 
                 currSubModel.Xtree.append( X )
@@ -592,7 +592,7 @@ class clsHumanModel():
         linkLen = self.__getAbsoluteNumVal( xmlJoint, 'link', 'length' )
 
         # radius of gyration (can be complex)
-        rog = np.zeros( (3,3), dtype = np.complex_ )                           
+        rog = np.zeros( (3,3), dtype = np.complex128 )                           
         rog[0,0] = self.__getAbsoluteNumVal( xmlJoint, 'radiusOfGyration', 'xx' )
         rog[1,1] = self.__getAbsoluteNumVal( xmlJoint, 'radiusOfGyration', 'yy' )
         rog[2,2] = self.__getAbsoluteNumVal( xmlJoint, 'radiusOfGyration', 'zz' )
@@ -623,7 +623,7 @@ class clsHumanModel():
         assert self.objMBM.isvector( u ), "direction vector is not valid"
 
         # normalize u
-        u     = np.array( u)
+        u     = np.array( u )
         # back transformation of u (into the model base frame)        
         R0, _ = self.objMBM.T2Rp( T0 )
         u     = np.dot( R0.T, u )

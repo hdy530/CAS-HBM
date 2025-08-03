@@ -510,6 +510,8 @@ class clsMultiBodyModel( clsMB ):
         # self.debug_printMatrix( Xpoi )
 
         J    = self.jacobian( q, i, Xpoi )
+        # print(i, J)
+        # print(f"J: {J.shape}")
         # self.debug_printMatrix( J )
 
         Bg   = np.matmul( Pi.T, np.matmul( B, Pi ) )
@@ -517,10 +519,13 @@ class clsMultiBodyModel( clsMB ):
 
         La_inv = np.matmul( np.matmul( Jg, np.linalg.inv(Bg) ), Jg.T )
         # self.debug_printMatrix( La_inv )
+        print(f"La_inv: {La_inv.shape}")
 
         La_invt = La_inv[3:6, 3:6]
+        # print(f"La_invt: {La_invt.shape}")
 
         u = np.array( u )
+        print(f"u: {u}")
 
         meff = 1/np.dot(  np.dot( La_invt, u), u )
         

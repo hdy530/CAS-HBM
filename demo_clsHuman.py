@@ -32,7 +32,7 @@ deg          = math.pi/180
 T0           = np.eye( 4 )
 T0[0:3, 0:3] = rot.from_euler( 'zyx', visu_rpy*deg ).as_matrix()
 T0[0:3, 3]   = visu_xyz
-
+# print(T0)
 
 # step 1) initialize human model
 human = clsHM.clsHumanModel("bodyParams.xml", 'male', 77.2, 1.6, stlver="basic")
@@ -52,6 +52,7 @@ u        = np.array( [0, 1, 0] )
 bpid = 15 # body location id
 currBodyPart     = mybodyloc.GetBodyLocationById( bpid )
 pn, pi, frameid  = human.GetBodyPartPosition( currBodyPart, q )
+print(frameid)
 
 # step 4) plot the situation (red line highlight the collision direction, back spot highlights the body location)
 human.PlotModel( q, u, pi, frameid, T0=T0 )
