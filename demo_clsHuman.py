@@ -39,17 +39,19 @@ human = clsHM.clsHumanModel("bodyParams.xml", 'male', 77.2, 1.6, stlver="basic")
 
 # step 2) create an object that represents a set of predefined body postures
 objPos = clsHMU.clsHMBodyPoseReader( "posture.xml" )
-# load specific body posture from file into the model
-q = objPos.getPostureByName( "ifa_2" )
+# load upright body posture from file into the model
+q = objPos.getPostureByName( "ifa_1" )
+# straighten right elbow (posture file bends it 90 degrees forward)
+q[23] = 0
 
 # step 3) create an object that represents the body locations defined in IS0/TS 15066
 mybodyloc = clsHMU.clsHMBodyLocationReader( "body.xml" )
 
 # define direction of the collision
-u        = np.array( [0, 1, 0] )
+u        = np.array( [-1, 0, 0] )
 
 # get position and frame id of a body location
-bpid = 15 # body location id
+bpid = 26 # body location id
 currBodyPart     = mybodyloc.GetBodyLocationById( bpid )
 pn, pi, frameid  = human.GetBodyPartPosition( currBodyPart, q )
 print(frameid)
